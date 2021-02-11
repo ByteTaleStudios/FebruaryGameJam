@@ -18,3 +18,11 @@ if place_meeting(x,y,obj_elevator){
 		Direction = 0	
 	}
 }
+
+//Destroy enemys
+if (place_meeting(x,y,obj_enemy) && keyboard_check(ord("Q"))){
+	instance_destroy()	
+}
+if (place_meeting(x,y,obj_enemy2) && keyboard_check(ord("W"))){
+	instance_destroy()	
+}

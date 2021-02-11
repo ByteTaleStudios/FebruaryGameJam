@@ -1,2 +1,2 @@
 Direction = 0
-spd = 50
+spd = 20

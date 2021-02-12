@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_floor",
+    "path": "sprites/spr_floor/spr_floor.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,12 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "grp_environment",
+    "path": "folders/Objects/grp_environment.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_floor",
